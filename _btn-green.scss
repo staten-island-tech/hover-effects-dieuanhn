@@ -1,0 +1,14 @@
+@import "_variables.scss";
+
+.btn-green {
+  background-color: #b5e8b5;
+  color: white;
+  letter-spacing: 0;
+  transition: all 0.5s;
+  border-radius: 10rem;
+}
+
+.btn-green:hover {
+  letter-spacing: 1.5rem;
+  color: black;
+}

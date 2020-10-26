@@ -1,0 +1,14 @@
+@import "_variables.scss";
+
+.btn-lavender {
+  background-color: lavender;
+  color: white;
+  transition: all 0.4s;
+  border-radius: 10rem;
+}
+
+.btn-lavender:hover {
+  color: black;
+  transform: translateY(-7px);
+  box-shadow: 0 10px 7rem rgba(black, 1);
+}
