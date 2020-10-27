@@ -2,7 +2,7 @@
 
 .btn-green {
   background-color: color(lightgreen);
-  color: black;
+  color: color(white);
   letter-spacing: 0;
   transition: all 0.5s;
   border-radius: 10rem;
@@ -11,4 +11,5 @@
 .btn-green:hover {
   letter-spacing: 1.5rem;
   color: black;
+  box-shadow: 0 10px 5rem rgba(black, 0.5);
 }

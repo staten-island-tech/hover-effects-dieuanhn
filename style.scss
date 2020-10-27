@@ -13,8 +13,8 @@
   justify-content: space-around;
   padding: 1rem;
   font-size: 1.5rem;
+  justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .btn,
@@ -26,4 +26,14 @@
   margin: 1rem auto;
   font-size: 2rem;
   position: relative;
+  border: 0.2rem solid color(black);
+}
+
+.header {
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }

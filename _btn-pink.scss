@@ -2,11 +2,12 @@
 
 .btn-pink {
   background-color: color(lightpink);
-  color: black;
+  color: color(white);
   transition: all 0.5s;
   border-radius: 10rem;
 }
 
 .btn-pink:hover {
   transform: scale(0.75);
+  box-shadow: 0 10px 5rem rgba(black, 0.5);
 }

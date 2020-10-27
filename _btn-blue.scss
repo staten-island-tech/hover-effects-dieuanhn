@@ -2,7 +2,7 @@
 
 .btn-blue {
   background-color: color(lightblue);
-  color: black;
+  color: color(white);
   transition: all 0.5s;
   letter-spacing: 0;
   border-radius: 10rem;
@@ -13,4 +13,6 @@
   transform: scale(1.1);
   letter-spacing: 1rem;
   background-color: color(lightyellow);
+  color: color(black);
+  box-shadow: 0 10px 5rem rgba(black, 0.5);
 }
