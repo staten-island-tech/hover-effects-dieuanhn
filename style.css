@@ -17,8 +17,8 @@ body {
 }
 
 .btn-pink {
-  background-color: pink;
-  color: #fff;
+  background-color: #ffb6c1;
+  color: black;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   border-radius: 10rem;
@@ -39,7 +39,7 @@ body {
 }
 
 .btn-blue {
-  background-color: lightblue;
+  background-color: #add8e6;
   color: black;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -52,7 +52,7 @@ body {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   letter-spacing: 1rem;
-  background-color: lightyellow;
+  background-color: #ffffe0;
 }
 
 html,
@@ -65,15 +65,15 @@ body {
 }
 
 .btn-yellow {
-  background-color: lightyellow;
-  color: lightyellow;
+  background-color: #ffffe0;
+  color: #ffffe0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   border-radius: 10rem;
 }
 
 .btn-yellow:hover {
-  color: purple;
+  color: #800080;
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
 }
@@ -89,7 +89,7 @@ body {
 
 .btn-green {
   background-color: #b5e8b5;
-  color: white;
+  color: black;
   letter-spacing: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -111,8 +111,8 @@ body {
 }
 
 .btn-lavender {
-  background-color: lavender;
-  color: white;
+  background-color: #e6e6fa;
+  color: black;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   border-radius: 10rem;

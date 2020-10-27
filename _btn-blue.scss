@@ -1,7 +1,7 @@
 @import "_variables.scss";
 
 .btn-blue {
-  background-color: lightblue;
+  background-color: color(lightblue);
   color: black;
   transition: all 0.5s;
   letter-spacing: 0;
@@ -12,5 +12,5 @@
   border-radius: 0;
   transform: scale(1.1);
   letter-spacing: 1rem;
-  background-color: lightyellow;
+  background-color: color(lightyellow);
 }

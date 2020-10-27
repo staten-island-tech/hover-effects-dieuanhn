@@ -5,11 +5,16 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
 $colors: (
-  red: #ff5722,
-  white: #fff,
-  blue: #00b0ff,
+  lightpink: #ffb6c1,
+  lightblue: #add8e6,
+  lavender: #e6e6fa,
+  lightyellow: #ffffe0,
+  lightgreen: #b5e8b5,
+  purple: #800080,
   black: #000,
+  white: #fff,
 );
 
 @function color($color-name) {

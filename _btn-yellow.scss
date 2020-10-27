@@ -1,13 +1,13 @@
 @import "_variables.scss";
 
 .btn-yellow {
-  background-color: lightyellow;
-  color: lightyellow;
+  background-color: color(lightyellow);
+  color: color(lightyellow);
   transition: all 0.5s;
   border-radius: 10rem;
 }
 
 .btn-yellow:hover {
-  color: purple;
+  color: color(purple);
   transform: scale(0.8);
 }
