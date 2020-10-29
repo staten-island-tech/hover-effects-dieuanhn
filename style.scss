@@ -6,6 +6,15 @@
 @import "_btn-lavender.scss";
 @import "_flowers.scss";
 
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: color(main);
+}
+
 .container {
   width: 80vw;
   height: 75vh;
