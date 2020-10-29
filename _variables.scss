@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: color(main);
 }
 
 $colors: (
@@ -15,6 +16,7 @@ $colors: (
   purple: #800080,
   black: #000,
   white: #fff,
+  main: #fffef8,
 );
 
 @function color($color-name) {

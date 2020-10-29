@@ -4,16 +4,17 @@
 @import "_btn-yellow.scss";
 @import "_btn-green.scss";
 @import "_btn-lavender.scss";
+@import "_flowers.scss";
 
 .container {
   width: 80vw;
+  height: 75vh;
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 1rem;
   font-size: 1.5rem;
-  justify-content: center;
   align-items: center;
 }
 
@@ -27,13 +28,27 @@
   font-size: 2rem;
   position: relative;
   border: 0.2rem solid color(black);
+  position: relative;
 }
 
 .header {
-  font-size: 2rem;
-  text-transform: uppercase;
+  font-size: 4rem;
+  margin-top: 5rem;
+  letter-spacing: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.subheader {
+  font-size: 3rem;
+  margin-top: -1rem;
+  letter-spacing: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 0;
 }
